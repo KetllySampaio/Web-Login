@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nerko One", cursive; /*fonte*/
+}
+
+body{
+    background:url("https://images.unsplash.com/photo-1567359781514-3b964e2b04d6?q=80&w=1136&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");/*Gerador de imagens automatica*/
+    /*https://images.unsplash.com/photo-1567359781514-3b964e2b04d6?q=80&w=1136&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D (Secundária)*/
+
+    background-size: cover; /* cover para cobrir a tela inteira*/
+    background-position: center;/*center para a posição ficar no centro*/
+    min-height: 100vh;/*tamanho minima, dividir a tela em pedacinhos de altura e ocupar todas*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .container{
+        width: 350px;
+        height: 490px;
+        background: transparent;
+        backdrop-filter:blur(20px) ; /*criar filtro, deixar efeito embaçado*/
+        border-radius:10px ;/*efeito de arredondadinho na ponta*/
+        padding:30px 30px ;/* espaçamento interno*/
+        text-align: center;
+        outline: none;
+        border: 2px solid rgba(42, 27, 182, 0.856);
+        
+                    
+        
+    }
+    .container h1{
+        font-size: 40px;
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 1px #050505;
+    }
+    .nome input{
+        width:100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        border: 2px solid rgba(29, 16, 207, 0.856);
+        border-radius: 10px;
+        font-size: 15px;
+        padding: 15px 5px 10px;
+        margin-top: 10px;/* espaçamento das caixas de input*/
+        color: #fff;
+        text-shadow: 1px 1px 1px #050505;
+    }
+
+        .container input::placeholder{
+            color: #fff;
+                
+    }
+    .butt{
+        width: 80%;
+        height: 40px;
+        background-color: rgb(204, 28, 22);
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        font-weight: 90;
+        margin-top: 20px;
+        cursor: pointer;
+        outline: none;
+        font-size: 15px;
+        text-shadow:1px 1px 1px #000;
+    }
+
+    .butt:hover{
+        background-color: rgb(194, 65, 65);
+    }
+
+    
+   
+   

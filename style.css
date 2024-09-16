@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nerko One", cursive; /*fonte*/
+}
+
+
+body{
+    background:url("https://images.unsplash.com/photo-1567359781514-3b964e2b04d6?q=80&w=1136&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");/*Gerador de imagens automatica*/
+    /*https://images.unsplash.com/photo-1567359781514-3b964e2b04d6?q=80&w=1136&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D (Secundária)*/
+
+    background-size: cover; /* cover para cobrir a tela inteira*/
+    background-position: center;/*center para a posição ficar no centro*/
+    min-height: 100vh;/*tamanho minima, dividir a tela em pedacinhos de altura e ocupar todas*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .container{
+        width: 350px;
+        height: 400px;
+        background: transparent;
+        border: 2px solid#333333 /*borda da div*/;
+        backdrop-filter:blur(20px) ; /*criar filtro, deixar efeito embaçado*/
+        border-radius:10px ;/*efeito de arredondadinho na ponta*/
+        padding:30px 40px ;/* espaçamento interno*/
+    }
+    h1{
+        font-size: 40px;
+        text-align: center;
+        color: #fff;
+        text-shadow:2px 3px 3px #000; /*Contorno do texto*/
+
+    }
+    .input_container{
+        position: relative;
+        width: 100%;
+        height:40px;
+        margin: 10px 0;
+        text-shadow:1px 1px 1px #000;
+      
+    }
+    .input_container input{
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none; /*linha que fica quando ta selecionado o input para digitar*/
+        border: 2px solid rgba(106, 107, 110, 0.856);
+        border-radius: 10px;
+        font-size: 16px;
+        color: #fff;
+        padding: 20px 45px 20px 20px;
+        text-shadow:1px 1px 1px #000;
+
+        
+    }
+    .input_container input::placeholder{
+        color: #fff;
+    }
+    .input_container img{
+        position: absolute;
+        right: 24px;
+        top: 10px;
+        margin-top: 5px;
+    }
+    .input_container a{
+        font-size: 16px;
+        margin-top: 5px;
+        color: #fff;
+        text-decoration: none;
+    }
+    .input_container a:hover{
+        text-decoration: underline;
+    }
+    .sumit-button{
+        width: 100%;
+        height: 50px;
+        background-color: rgb(103, 62, 151);
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        font-weight: 100;
+        margin-top: 24px;
+        cursor: pointer;
+        outline: none;
+        font-size: 16px;
+        text-shadow:1px 1px 1px #000;
+    }
+    .sumit-button:hover{
+        background-color: rgb(130, 94, 151); /*quando passar o mouse dar a sensação de seleção*/
+    }
+    .registrar-link{
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .registrar-link p a {
+        font-size: 16px;
+        color: #fff;
+        font-weight: 300;
+        
+    }
+    .registrar-link p a {
+        font-size: 16px;
+        color: #fff;
+        font-weight: 500;
+    text-decoration: none;}
+    .registrar-link p{
+        color: #fff;
+    
+}
+.registrar-link p a:hover{
+    text-decoration: underline;
+}
+    
