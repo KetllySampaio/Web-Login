@@ -19,7 +19,7 @@ body{
 
     .container{
         width: 350px;
-        height: 490px;
+        height: 450px;
         background: transparent;
         backdrop-filter:blur(20px) ; /*criar filtro, deixar efeito embaçado*/
         border-radius:10px ;/*efeito de arredondadinho na ponta*/
